@@ -1,19 +1,26 @@
 /* below the fold CSS goes here */
 
 /*MDD Content Clock*/
+main .section.mdd-content-block,
+main .section.mdd-checklist-block{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 main .section.mdd-content-block h3{
     color: var(--text-color);
     font-size: 24px;
 }
 main .section.mdd-content-block > div{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    margin: 0 auto;
 }
-
-main .section.mdd-content-block > div p:last-of-type{
-    flex-basis: 100%;
-    padding-left: 100px;
+main .section.mdd-content-block div.imgwrapper-wrapper{
+    margin-right: 15px;
+}
+main .section.mdd-content-block div.copywrapper-wrapper{
+    font-size: 16px;
 }
 main .section.mdd-content-block > div p{
     font-size: 16px;
@@ -25,3 +32,46 @@ main .section.mdd-content-block img{
     margin: 0 14px 0 0;
     padding: 0;
 }
+main .section.mdd-content-block ul{
+    padding: 0 0 0 10px;
+    list-style: none;
+}
+main .section.mdd-content-block ul li:before{
+    content: "•";
+    font-size: 24px;
+    color: var(--tc-orange); 
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -10px; 
+}
+
+main .section.mdd-checklist-block{
+    background-color: white;
+}
+
+main .section.mdd-checklist-block h5{
+    color: var(--tc-teal);
+    font-size: 14px;
+}
+main .section.mdd-checklist-block h3{
+    color: var(--text-color);
+    font-size: 22px;
+}
+main .section.mdd-checklist-block > div p{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+main .section.mdd-checklist-block .copywrapper-wrapper{
+    width: calc(100% - 300px);
+}
+main .section.mdd-checklist-block .imgwrapper-wrapper{
+    margin: 0 0 0 90px;
+    width: 110px;
+}
+/* main .section.mdd-checklist-block .imgwrapper-wrapper img{
+    width: 110px;
+    margin-left: 75px;
+    margin-right: 25px;
+} */

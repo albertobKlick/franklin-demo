@@ -12,13 +12,14 @@
 
  :root {
   /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
+  --link-color: #ef8200;
+  --link-hover-color: #af6503;
   --background-color: #F8F7F6;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
   --text-color: #333;
   --tc-teal: #569099;
+  --tc-orange: #ef8200;
 
   /* fonts */
   --body-font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
@@ -139,7 +140,7 @@ a.button:any-link, button {
   box-sizing: border-box;
   text-decoration: none;
   border: 2px solid transparent;
-  padding: 5px 30px;
+  padding: 10px 30px;
   text-align: center;
   font-style: normal;
   font-weight: 600;
@@ -150,7 +151,7 @@ a.button:any-link, button {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
