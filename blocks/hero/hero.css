@@ -6,19 +6,39 @@ main .hero-container > div {
   
 main .hero-container {
   padding: 0;
+  max-width: 1024px;
+  margin: 0 auto;
 }
   
 main .hero {
   position: relative;
-  padding: 32px;
-  min-height: 300px;
+  /* padding: 32px; */
+  min-height: 206px;
+  display: flex;
+  align-items: center;
+
+  padding-left: 50px;
 }
 
-main .hero h1 {
-  max-width: 1200px;
+main .hero h1, h3, h4 {
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
   color: white;
+  margin: 0;
+  padding: 0;
+}
+
+main .hero h3 {
+  font-size: 16px;
+}
+
+main .hero h4 {
+  text-align: right;
+  font-size: 12px;
+  position: absolute;
+  bottom: 15px;
+  right: 24px;
 }
 
 main .hero picture {
