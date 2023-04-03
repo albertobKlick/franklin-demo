@@ -1,1 +1,27 @@
 /* below the fold CSS goes here */
+
+/*MDD Content Clock*/
+main .section.mdd-content-block h3{
+    color: var(--text-color);
+    font-size: 24px;
+}
+main .section.mdd-content-block > div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main .section.mdd-content-block > div p:last-of-type{
+    flex-basis: 100%;
+    padding-left: 100px;
+}
+main .section.mdd-content-block > div p{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+main .section.mdd-content-block img{
+    max-width: 86px;
+    margin: 0 14px 0 0;
+    padding: 0;
+}
