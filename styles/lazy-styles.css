@@ -63,12 +63,21 @@ main .section.mdd-checklist-block > div p{
     padding: 0;
     margin: 0;
 }
-main .section.mdd-checklist-block .copywrapper-wrapper{
-    width: calc(100% - 300px);
+@media (max-width: 899px){
+    
+    main .section.mdd-checklist-block .imgwrapper-wrapper img{
+        margin: 0 20px 0 0;
+        max-width: 110px;
+    }
 }
-main .section.mdd-checklist-block .imgwrapper-wrapper{
-    margin: 0 0 0 90px;
-    width: 110px;
+@media (min-width: 900px){
+    main .section.mdd-checklist-block .copywrapper-wrapper{
+        width: calc(100% - 300px);
+    }
+    main .section.mdd-checklist-block .imgwrapper-wrapper{
+        margin: 0 0 0 90px;
+        width: 110px;
+    }
 }
 /* main .section.mdd-checklist-block .imgwrapper-wrapper img{
     width: 110px;
