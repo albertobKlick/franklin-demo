@@ -10,6 +10,30 @@
  * governing permissions and limitations under the License.
  */
 
+
+@font-face {
+  font-family: Univers LT Std;
+  src: url(../fonts/woff2/UniversLTStdRoman.woff2) format("woff2"),
+  url(../fonts/woff/UniversLTStdRoman.woff) format("woff"),
+  url(../fonts/eot/UniversLTStdRoman.eot) format("eot"),
+  url(../fonts/ttf/UniversLTStdRoman.ttf) format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Univers LT Bold;
+  src: url(../fonts/woff2/UniversLTStd-Bold.woff2) format("woff2"),
+  url(../fonts/woff/UniversLTStd-Bold.woff) format("woff"),
+  url(../fonts/eot/UniversLTStd-Bold.eot) format("eot"),
+  url(../fonts/ttf/UniversLTStd-Bold.ttf) format("ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap
+}
+
+
  :root {
   /* colors */
   --link-color: #ef8200;
@@ -22,9 +46,9 @@
   --tc-orange: #ef8200;
 
   /* fonts */
-  --body-font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
-  --heading-font-family: var(--body-font-family);
-  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --body-font-family: Univers LT Std, helvetica, ubuntu, roboto, noto, sans-serif;
+  --heading-font-family: Univers LT Bold, menlo, consolas, 'Liberation Mono', monospace;
+  --fixed-font-family: Univers LT Bold, menlo, consolas, 'Liberation Mono', monospace;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -37,7 +61,7 @@
   --heading-font-size-l: 32px;
   --heading-font-size-m: 24px;
   --heading-font-size-s: 20px;
-  --heading-font-size-xs: 18px;
+  --heading-font-size-xs: 18px; 
 
   /* nav height */
   --nav-height: 104px;

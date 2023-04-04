@@ -5,6 +5,8 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  font-family: var(--fixed-font-family);
+  font-weight: 700;
 }
 
 header nav {
